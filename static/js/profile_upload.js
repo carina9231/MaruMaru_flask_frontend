@@ -64,7 +64,7 @@ function profile_upload() {
     } else {
         $.ajax({
             type: "POST",
-            url: "/profile/create",
+            url: "{EB URL}/profile/create",
             data: form_data,
             cache: false,
             contentType: false,
